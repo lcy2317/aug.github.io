@@ -1,4 +1,0 @@
-avalon.define({
-    $id:"result"
-})
-
