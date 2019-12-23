@@ -26,10 +26,6 @@
     border: #ddd 1px solid;
 }
 
-.bigBtn {
-    width: 120px;
-    height: 50px;
-}
 
 .validateText {
     margin: auto;
@@ -65,4 +61,13 @@
     filter: blur(10px);
     filter: progid: DXImageTransform.Microsoft.Blur(PixelRadius=10, MakeShadow=false);
     /* IE6~IE9 */
+}
+
+body{
+    background-color: floralwhite;
+}
+
+.inner{
+    margin: auto;
+    width: 70%;
 }
