@@ -2,17 +2,41 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>郦铖阳的首页</title>
 
     <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="../css/bootstrap/bootstrap-theme.css">
+    <link rel="stylesheet" href="../css/common/personal.css">
     <script src="../js/jquery/jquery-1.12.0.min.js"></script>
     <script src="../js/bootstrap/bootstrap.min.js"></script>
+    <script src="../js/common/personal.js"></script>
+    <script src="../js/common/forbid.js"></script>
 
 </head>
 
 <body>
+    <div class="head container-fluid blur" id="head">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <h1 class="title">123</h1>
+        </div>
+    </div>
+    <div class="body blur" id="body">
+        <div class="col-md-2 body-left" style="background-color: red;">123123</div>
+        <div class="col-md-8" style="background-color: yellow;">1231
+        </div>
+        <div class="col-md-2 body-right" style="background-color: blue;">12312</div>
+    </div>
+    <div class="foot blur" id="foot" style="background-color: black;">
+    </div>
+
+    <!--页面校验-->
+    <div class="validate bs-example" id="validate">
+        <img class="validateImg" src="../images/close.png" />
+        <input class="form-control validateText" id="inputText" placeholder="验证码">
+        <button class="btn btn-default btn-lg validateBtn" id="validateBtn" onclick="submit()">确 认</button>
+    </div>
 </body>
 
 </html>

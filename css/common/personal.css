@@ -1,0 +1,72 @@
+.head {
+    background-color: #242424;
+    height: 150px;
+}
+
+.title {
+    color: white;
+    margin-top: 50px;
+}
+
+.title-1 {
+    color: white;
+    margin-top: 80px;
+}
+
+.validate {
+    width: 500px;
+    height: 300px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+    border: #ddd 1px solid;
+}
+
+.bigBtn {
+    width: 120px;
+    height: 50px;
+}
+
+.validateText {
+    margin: auto;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.validateImg {
+    margin: auto;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.validateBtn{
+    height: 50px;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.blur {
+    -webkit-filter: blur(10px);
+    /* Chrome, Opera */
+    -moz-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+    filter: progid: DXImageTransform.Microsoft.Blur(PixelRadius=10, MakeShadow=false);
+    /* IE6~IE9 */
+}
