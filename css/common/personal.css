@@ -1,7 +1,19 @@
 .head {
     background-color: #242424;
-    height: 150px;
+    height: 300px;
+    text-align: center;
+
 }
+.body
+.foot
+.head{
+    border-radius: 8px;
+}
+.title-2{
+    text-align: center
+}
+
+
 
 .title {
     color: white;
@@ -70,4 +82,8 @@ body{
 .inner{
     margin: auto;
     width: 70%;
+}
+
+.icon{
+    margin: auto;
 }
