@@ -1,89 +1,52 @@
-.head {
-    background-color: #242424;
-    height: 300px;
-    text-align: center;
+/* div{
+    border: red 1px solid;
+} */
 
-}
-.body
-.foot
-.head{
-    border-radius: 8px;
-}
-.title-2{
-    text-align: center
+#head{
+    height: 275px;
 }
 
-
-
-.title {
-    color: white;
-    margin-top: 50px;
-}
-
-.title-1 {
-    color: white;
-    margin-top: 80px;
-}
-
-.validate {
-    width: 300px;
+#head-1{
     height: 200px;
+    background-color: black;
+}
+
+#headImg{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top:100px;
+    left: 200px;
+}
+
+
+.fontSize_1{
+    font-size: 20px;
+    font-family: Microsoft Yahei;
+}
+
+#QrImg{
     position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    text-align: center;
-    border: #ddd 1px solid;
+    width: 200px;
+    height: 200px;
+    right: 100px;
+    bottom: 100px;
+    border: 1px black solid;
 }
 
-
-.validateText {
-    margin: auto;
-    width: 150px;
-    height: 40px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 15px;
+.QrDiv{
+    width: 200px;
+    height: 230px;
+    right: 100px;
+    bottom: 100px;
+    position: fixed;
 }
 
-#canvas {
-    margin: auto;
-    width: 150px;
-    height: 50px;
-    margin-top: 20px;
+.pad{
+    padding: 0;
 }
 
-.btn:focus,
-.btn:active:focus,
-.btn.active:focus,
-.btn.focus,
-.btn:active.focus,
-.btn.active.focus {
-    outline: none;
-    box-shadow: none;
+h1,h2,h3,h4,h5{
+    text-align:center;
 }
 
-.blur {
-    -webkit-filter: blur(10px);
-    /* Chrome, Opera */
-    -moz-filter: blur(10px);
-    -ms-filter: blur(10px);
-    filter: blur(10px);
-    filter: progid: DXImageTransform.Microsoft.Blur(PixelRadius=10, MakeShadow=false);
-    /* IE6~IE9 */
-}
-
-body{
-    background-color: floralwhite;
-}
-
-.inner{
-    margin: auto;
-    width: 70%;
-}
-
-.icon{
-    margin: auto;
-}
