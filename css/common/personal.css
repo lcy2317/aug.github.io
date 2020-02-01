@@ -11,6 +11,11 @@
     background-color: black;
 }
 
+.title_1{
+    color: white;
+    margin-left: 360px;
+}
+
 #headImg{
     width: 150px;
     height: 150px;
@@ -22,8 +27,24 @@
     margin-bottom: 100px;
 }
 
+.td_1{
+    width: 13%;
+}
+
+.td_2{
+    width: 27%;
+}
+
+.td_3{
+    width: 15%;
+}
+
 .fontSize_1{
     font-size: 20px;
+    font-family: Microsoft Yahei;
+}
+.fontSize_2{
+    font-size: 30px;
     font-family: Microsoft Yahei;
 }
 
