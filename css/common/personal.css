@@ -18,7 +18,9 @@
     top:100px;
     left: 200px;
 }
-
+.itemDiv{
+    margin-bottom: 100px;
+}
 
 .fontSize_1{
     font-size: 20px;
@@ -27,16 +29,35 @@
 
 #QrImg{
     position: fixed;
-    width: 200px;
-    height: 200px;
+    width: 50px;
+    height: 50px;
     right: 100px;
     bottom: 100px;
+}
+
+.concatImg{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-top: 10px;
     border: 1px black solid;
 }
 
+.item{
+    width: 50px;
+    height: 50px;
+}
+
+.ContactDiv{
+    text-align: center;
+    width: 150px;
+    margin-left: 100px;
+    display: inline-block;
+}
+
 .QrDiv{
-    width: 200px;
-    height: 230px;
+    width: 50px;
+    height: 50px;
     right: 100px;
     bottom: 100px;
     position: fixed;
@@ -44,6 +65,10 @@
 
 .pad{
     padding: 0;
+}
+
+ul{
+margin-left: 150px;
 }
 
 h1,h2,h3,h4,h5{
