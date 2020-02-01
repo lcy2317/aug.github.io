@@ -23,6 +23,13 @@
     top:100px;
     left: 200px;
 }
+
+.picDemo{
+    width: 980px;
+    height: 540px;
+    margin-top: 20px;
+}
+
 .itemDiv{
     margin-bottom: 100px;
 }
