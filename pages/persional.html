@@ -1,190 +1,123 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8" name="viewport"
-        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>August`s Introduction</title>
-
-    <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/bootstrap/bootstrap-theme.css">
-    <link rel="stylesheet" href="../css/common/personal.css">
-    <script src="../js/jquery/jquery-1.12.0.min.js"></script>
-    <script src="../js/bootstrap/bootstrap.min.js"></script>
-    <script src="../js/common/personal.js"></script>
-    <script src="../js/common/forbid.js"></script>
+    <meta charset="UTF-8">
+    <title>郦铖阳的个人简历</title>
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
 </head>
 
-<body style="background-color: #EAEAEF;">
-    <!-- 左侧空白 -->
-    <div class="col-md-2 pad">
-        <div id="head-1"></div>
-    </div>
-    <!-- 主体 -->
-    <div class="col-md-8 pad" >
-        <div id="head">
-            <div id="head-1">
-                <img src="../images/headImg1.jpg" id="headImg" class="img-rounded">
-                <p class="fontSize_2 title_1">August</p>
-            </div>
-            <p class="title_1 fontSize_1" style="color: black;">Tel: 15052969808</p>
-        </div>
-        <div id="head_basic_info" class="itemDiv">
-            <h2>基本信息</h2>
-            <hr>
-            <table  class="table table-bordered fontSize_1" style="width: 80%;margin: auto;border: 0;" >
-                <tr>
-                    <td class="td_1">
-                        姓名：
-                    </td>
-                    <td class="td_2">
-                        郦铖阳
-                    </td>
-                    <td class="td_1">
-                        毕业时间：
-                    </td>
-                    <td class="td_2">
-                        2019.06
-                    </td>
-                </tr>
-                <tr>
-                    <td class="td_1">
-                        毕业院校：
-                    </td>
-                    <td class="td_2">
-                        <a href="https://baike.baidu.com/item/%E6%B1%9F%E8%8B%8F%E7%90%86%E5%B7%A5%E5%AD%A6%E9%99%A2/6827143?fr=aladdin/" target="blank">江苏理工学院</a>
-                    </td>
-                    <td class="td_1">
-                        专业：
-                    </td>
-                    <td class="td_2">
-                        计算机科学与技术（嵌入式）
-                    </td>
-                </tr>
-                <tr>
-                    <td class="td_1">
-                        求职意向：
-                    </td>
-                    <td class="td_2">
-                        Java 工程师
-                    </td>
-                    <td class="td_1">
-                        邮箱：
-                    </td>
-                    <td class="td_2">
-                        793097788@qq.com
-                    </td>
-                </tr>
-                <tr>
-                    <td class="td_1">
-                    --->
-                    </td>
-                    <td class="td_2">
-                        <a href="https://github.com/lcy2317" target="blank">单击访问github</a>
-                    </td>
-                </tr>
-            </table>
-        </div>
-        <!-- 技能 -->
-        <div id="Skills" class="itemDiv">
-            <h2>掌握技能</h2>
-            <hr>
-            <ul class="fontSize_1">
-                <li>精通 JavaSE 、熟悉集合框架、利用常用工具进行 web 开发</li>
-                <li>熟练使用 Java 相关框架，如 SSM ；熟练使用 SpringBoot 等技术</li>
-                <li>熟悉 Java 多线程、CAS 机制，熟悉 J.U.C 包和 Sync 的使用；熟悉 Java8 Lambda，Stream</li>
-                <li>熟悉 MySQL，Redis，清楚 SQL 事务、索引等内容；对 Redis 数据类型、使用场景有一定的了解</li>
-                <li>熟悉 JMM，对GC、锁和 JVM 有一定的了解；熟悉 JVM 调优命令，Jconsole等</li>
-                <li>熟悉 RPC 远程调用，sip、soap 协议；熟悉 jni，有微服务开发经验</li>
-                <li>了解前端开发 React.js、Vue.js 等框架，能熟练使用</li>
-                <li>了解 Linux 常用命令、shell 脚本，熟练使用 docker</li>
-                <li>了解 Jenkins，常用静态检查工具，持续集成</li>
-                <li>了解常用设计模式、常用数据结构及算法</li>
-            </ul>
-        </div>
-        <div id="work_exp" class="itemDiv">
-            <h2>任职经历</h2>
-            <hr>
-            <ul class="fontSize_1">
-                    <li>
-                        <p>2020.3 ~ 至今</p> 
-                            <table class="table table-bordered fontSize_1" style="width: 80%;margin: auto;margin-left: 10px;">
-                                <tr>
-                                    <td class="td_3">任职公司：</td>
-                                    <td>苏州软通动力有限公司（华为外包）</td>
-                                </tr>
-                                <tr>
-                                    <td class="td_3">主要工作：</td>
-                                    <td style="padding-left: 30px;">
-                                        <li>负责基于Springboot 开发视频会议录播微服务需求优化和bug 修改，主要涉及和其他微服务的 soap 通信，消息的接受与上报，定时心跳任务优化。
-                                            CodeClub 托管。</li>
-                                        <li>做过CIE，负责伏羲流水线相关内容，主要负责静态检查和服务构建等内容，对异常流水线进行问题定位。</li>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="td_3">参与项目：</td>
-                                    <td>CloudBU WeLink</td>
-                                </tr>
-                            </table>
-                    </li>
-                    <br/>
-                    <li>
-                       <p>2019.6 ~ 2020.3</p> 
-                        <table class="table table-bordered fontSize_1" style="width: 80%;margin: auto;margin-left: 10px;">
-                            <tr>
-                                <td class="td_3">任职公司：</td>
-                                <td>中电鸿信信息科技有限公司</td>
-                            </tr>
-                            <tr>
-                                <td class="td_3">主要工作：</td>
-                                <td style="padding-left: 30px;">
-                                    <li>负责项目组内的老学校迎新系统的的维护工作，该项目主要功能为学校线上迎新，学生信息填写，缴费等。需要根据不同学校的要求添加特性。</li>
-                                    <li>负责开放缴费系统，包含收费项导入，实时流水，退款流程等操作。学生通过手机端扫码缴费，老师后台进行对账、退款、审核确认等一系列流程。参与了大部分后台和前台的功能开发工作。
-                                        技术栈为 Springboot + Redis + React + MySQL。
-                                    </li>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="td_3">参与项目：</td>
-                                <td>学校迎新系统、开放缴费系统</td>
-                            </tr>
-                        </table>
-                    </li>
-            </ul>
-
-        </div>
-        <!-- 其他爱好 -->
-        <div id="Others" class="itemDiv">
-            <h2>其他</h2>
-            <hr>
-            <ul class="fontSize_1">
-                    <li>在校期间担任校自管会部长、新生导生。</li>
-                    <li>参加过WCA魔方比赛，对魔方、书法、运动比较感兴趣。</li>
-                    <li>对算法、设计模式有比较大的兴趣，学习能力强。</li>
-                </ul>
-        </div>
-        <!-- 联系方式 -->
-        <div id="Contact" class="itemDiv">
-            <h2>联系我</h2>
-            <hr>
-            <div class="ContactDiv">
-                <img src="../images/wechat.png" class="img-rounded item">
-                <img src="../images/wechatQrCode.jpg" class="img-rounded concatImg">
-            </div>
-            <div class="ContactDiv">
-                    <img src="../images/qq.png" class="img-rounded item">
-                    <img src="../images/qqQrCode.JPG" class="img-rounded concatImg">
-            </div>
-        </div>
-    </div>
-    <!-- 右侧空白 -->
-    <div class="col-md-2 pad">
-        <div id="head-1" style="color: aliceblue;"><div>last update : 2020.06.01</div></div>
-    </div>
-    <!-- 返回顶部 -->
-    <div class="QrDiv fontSize_1">
-        <a href="#"><img src="../images/backTop.png" id="QrImg" class="img-rounded" ></a>
+<body>
+    <div id="app">
+        <el-row type="flex" justify="center">
+            <el-card style="width: 50%;" shadow="never">
+                <div slot="header" class="clearfix">
+                    <span>
+                        <h1>简历</h1>
+                    </span>
+                </div>
+                <el-card shadow="hover">
+                    <div slot="header" class="clearfix">
+                        <h3>个人信息</h3>
+                    </div>
+                    <el-form label-position="left" label-width="100px">
+                        <el-row>
+                            <el-col :span="12">
+                                <el-form-item label="姓名:">
+                                    <span>{{ baseInfo.name }}</span>
+                                </el-form-item>
+                            </el-col>
+                            <el-col :span="12">
+                                <el-form-item label="毕业时间:">
+                                    <span>{{ baseInfo.graduation }}</span>
+                                </el-form-item>
+                            </el-col>
+                        </el-row>
+                        <el-row>
+                            <el-col :span="12">
+                                <el-form-item label="毕业院校:">
+                                    <el-link type="primary" target='_blank'
+                                        href='https://baike.baidu.com/item/%E6%B1%9F%E8%8B%8F%E7%90%86%E5%B7%A5%E5%AD%A6%E9%99%A2/6827143?fr=aladdin/'>
+                                        {{ baseInfo.school }}</el-link>
+                                </el-form-item>
+                            </el-col>
+                            <el-col :span="12">
+                                <el-form-item label="专业:">
+                                    <span>{{ baseInfo.profession }}</span>
+                                </el-form-item>
+                            </el-col>
+                        </el-row>
+                        <el-row>
+                            <el-col :span="12">
+                                <el-form-item label="求职意向:">
+                                    <span>{{ baseInfo.target }}</span>
+                                </el-form-item>
+                            </el-col>
+                            <el-col :span="12">
+                                <el-form-item label="联系邮箱:">
+                                    <span> {{ baseInfo.email }}</span>
+                                </el-form-item>
+                            </el-col>
+                        </el-row>
+                        <el-row>
+                            <el-col :span="12">
+                                <el-form-item label="常用编程语言:">
+                                    <span v-for="item in baseInfo.skill" style="margin-right: 10px;">
+                                        <el-tag type="success">{{ item }}</el-tag>
+                                    </span>
+                                </el-form-item>
+                            </el-col>
+                    </el-form>
+                </el-card>
+                <el-card shadow="hover" style="margin-top:20px;">
+                    <div slot="header" class="clearfix">
+                        <h3>掌握技能</h3>
+                    </div>
+                </el-card>
+                <el-card shadow="hover" style="margin-top:20px;">
+                    <div slot="header" class="clearfix">
+                        <h3>工作经历</h3>
+                    </div>
+                </el-card>
+                <el-card shadow="hover" style="margin-top:20px;">
+                    <div slot="header" class="clearfix">
+                        <h3 style="display: inline-block">联系方式</h3><span style="font-size: 12px;">（备注：github）</span>
+                    </div>
+                    <el-row>
+                        <el-col :span="12">
+                            <el-image style="width: 250px; height: 250px; border: 1px solid #dcdfe6;"
+                                src="../images/wechatQrCode.jpg" :fit="fit"></el-image>
+                        </el-col>
+                        <el-col :span="12">
+                            <el-image style="width: 250px; height: 250px; border: 1px solid #dcdfe6;"
+                                src="../images/qqQrCode.JPG" :fit="fit"></el-image>
+                        </el-col>
+                    </el-row>
+                </el-card>
+            </el-card>
+        </el-row>
     </div>
 </body>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+<script>
+    new Vue({
+        el: '#app',
+        data: function () {
+            return {
+                visible: false,
+                baseInfo: {
+                    name: '郦铖阳',
+                    graduation: '2019.6',
+                    school: '江苏理工学院',
+                    profession: '计算机科学与技术（嵌入式）',
+                    target: 'Java / Python 工程师',
+                    email: '793097788@qq.com',
+                    skill: ['Java', 'Python', 'JavaScript', 'Golang']
+                }
+            }
+        }
+    })
+</script>
 
 </html>
